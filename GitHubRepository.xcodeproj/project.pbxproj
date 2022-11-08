@@ -3,27 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0806A41266BB711607396D57 /* Pods_GitHubRepository.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E37EB724217202FC15CFAB /* Pods_GitHubRepository.framework */; };
 		146BD02E290926C100CDAAA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146BD02D290926C100CDAAA7 /* AppDelegate.swift */; };
 		146BD030290926C100CDAAA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146BD02F290926C100CDAAA7 /* SceneDelegate.swift */; };
-		146BD032290926C100CDAAA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146BD031290926C100CDAAA7 /* ViewController.swift */; };
-		146BD035290926C100CDAAA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 146BD033290926C100CDAAA7 /* Main.storyboard */; };
 		146BD037290926C300CDAAA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146BD036290926C300CDAAA7 /* Assets.xcassets */; };
 		146BD03A290926C300CDAAA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 146BD038290926C300CDAAA7 /* LaunchScreen.storyboard */; };
+		14E524D2291A4059005C0F83 /* RepositoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E524D1291A4059005C0F83 /* RepositoryListViewController.swift */; };
+		14E524D4291A416B005C0F83 /* RepositoryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E524D3291A416B005C0F83 /* RepositoryListCell.swift */; };
+		14E524D7291A41B7005C0F83 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 14E524D6291A41B7005C0F83 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		146BD02A290926C100CDAAA7 /* GitHubRepository.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubRepository.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		146BD02D290926C100CDAAA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		146BD02F290926C100CDAAA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		146BD031290926C100CDAAA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		146BD034290926C100CDAAA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		146BD036290926C300CDAAA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		146BD039290926C300CDAAA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		146BD03B290926C300CDAAA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14E524D1291A4059005C0F83 /* RepositoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListViewController.swift; sourceTree = "<group>"; };
+		14E524D3291A416B005C0F83 /* RepositoryListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListCell.swift; sourceTree = "<group>"; };
+		3CCF9A38A87324157246F88E /* Pods-GitHubRepository.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubRepository.debug.xcconfig"; path = "Target Support Files/Pods-GitHubRepository/Pods-GitHubRepository.debug.xcconfig"; sourceTree = "<group>"; };
+		44E37EB724217202FC15CFAB /* Pods_GitHubRepository.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitHubRepository.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F41991E9749E51635C7920A /* Pods-GitHubRepository.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubRepository.release.xcconfig"; path = "Target Support Files/Pods-GitHubRepository/Pods-GitHubRepository.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +36,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0806A41266BB711607396D57 /* Pods_GitHubRepository.framework in Frameworks */,
+				14E524D7291A41B7005C0F83 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				146BD02C290926C100CDAAA7 /* GitHubRepository */,
 				146BD02B290926C100CDAAA7 /* Products */,
+				96669FECDA668F48FD251697 /* Pods */,
+				34918FFD986F3E0C9FE6FEE9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +67,30 @@
 			children = (
 				146BD02D290926C100CDAAA7 /* AppDelegate.swift */,
 				146BD02F290926C100CDAAA7 /* SceneDelegate.swift */,
-				146BD031290926C100CDAAA7 /* ViewController.swift */,
-				146BD033290926C100CDAAA7 /* Main.storyboard */,
+				14E524D1291A4059005C0F83 /* RepositoryListViewController.swift */,
+				14E524D3291A416B005C0F83 /* RepositoryListCell.swift */,
 				146BD036290926C300CDAAA7 /* Assets.xcassets */,
 				146BD038290926C300CDAAA7 /* LaunchScreen.storyboard */,
 				146BD03B290926C300CDAAA7 /* Info.plist */,
 			);
 			path = GitHubRepository;
+			sourceTree = "<group>";
+		};
+		34918FFD986F3E0C9FE6FEE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44E37EB724217202FC15CFAB /* Pods_GitHubRepository.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96669FECDA668F48FD251697 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CCF9A38A87324157246F88E /* Pods-GitHubRepository.debug.xcconfig */,
+				9F41991E9749E51635C7920A /* Pods-GitHubRepository.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +100,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 146BD03E290926C300CDAAA7 /* Build configuration list for PBXNativeTarget "GitHubRepository" */;
 			buildPhases = (
+				21A1F2691B3BC7DCBB14F07F /* [CP] Check Pods Manifest.lock */,
 				146BD026290926C100CDAAA7 /* Sources */,
 				146BD027290926C100CDAAA7 /* Frameworks */,
 				146BD028290926C100CDAAA7 /* Resources */,
+				E4FDD8BB7D640268E6F188F7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = GitHubRepository;
+			packageProductDependencies = (
+				14E524D6291A41B7005C0F83 /* SnapKit */,
+			);
 			productName = GitHubRepository;
 			productReference = 146BD02A290926C100CDAAA7 /* GitHubRepository.app */;
 			productType = "com.apple.product-type.application";
@@ -103,7 +134,7 @@
 				};
 			};
 			buildConfigurationList = 146BD025290926C100CDAAA7 /* Build configuration list for PBXProject "GitHubRepository" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -111,6 +142,9 @@
 				Base,
 			);
 			mainGroup = 146BD021290926C100CDAAA7;
+			packageReferences = (
+				14E524D5291A41B7005C0F83 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 146BD02B290926C100CDAAA7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,34 +161,68 @@
 			files = (
 				146BD03A290926C300CDAAA7 /* LaunchScreen.storyboard in Resources */,
 				146BD037290926C300CDAAA7 /* Assets.xcassets in Resources */,
-				146BD035290926C100CDAAA7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21A1F2691B3BC7DCBB14F07F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GitHubRepository-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4FDD8BB7D640268E6F188F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GitHubRepository/Pods-GitHubRepository-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GitHubRepository/Pods-GitHubRepository-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GitHubRepository/Pods-GitHubRepository-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		146BD026290926C100CDAAA7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				146BD032290926C100CDAAA7 /* ViewController.swift in Sources */,
 				146BD02E290926C100CDAAA7 /* AppDelegate.swift in Sources */,
 				146BD030290926C100CDAAA7 /* SceneDelegate.swift in Sources */,
+				14E524D2291A4059005C0F83 /* RepositoryListViewController.swift in Sources */,
+				14E524D4291A416B005C0F83 /* RepositoryListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		146BD033290926C100CDAAA7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				146BD034290926C100CDAAA7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		146BD038290926C300CDAAA7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +350,7 @@
 		};
 		146BD03F290926C300CDAAA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CCF9A38A87324157246F88E /* Pods-GitHubRepository.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +361,6 @@
 				INFOPLIST_FILE = GitHubRepository/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +378,7 @@
 		};
 		146BD040290926C300CDAAA7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F41991E9749E51635C7920A /* Pods-GitHubRepository.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +389,6 @@
 				INFOPLIST_FILE = GitHubRepository/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +426,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		14E524D5291A41B7005C0F83 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		14E524D6291A41B7005C0F83 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14E524D5291A41B7005C0F83 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 146BD022290926C100CDAAA7 /* Project object */;
 }
