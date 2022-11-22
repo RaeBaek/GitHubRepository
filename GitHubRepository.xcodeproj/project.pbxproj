@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0806A41266BB711607396D57 /* Pods_GitHubRepository.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E37EB724217202FC15CFAB /* Pods_GitHubRepository.framework */; };
+		14474765292C918F00ADDB37 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14474764292C918F00ADDB37 /* Repository.swift */; };
 		146BD02E290926C100CDAAA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146BD02D290926C100CDAAA7 /* AppDelegate.swift */; };
 		146BD030290926C100CDAAA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146BD02F290926C100CDAAA7 /* SceneDelegate.swift */; };
 		146BD037290926C300CDAAA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146BD036290926C300CDAAA7 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14474764292C918F00ADDB37 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		146BD02A290926C100CDAAA7 /* GitHubRepository.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubRepository.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		146BD02D290926C100CDAAA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		146BD02F290926C100CDAAA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				146BD02D290926C100CDAAA7 /* AppDelegate.swift */,
 				146BD02F290926C100CDAAA7 /* SceneDelegate.swift */,
 				14E524D1291A4059005C0F83 /* RepositoryListViewController.swift */,
+				14474764292C918F00ADDB37 /* Repository.swift */,
 				14E524D3291A416B005C0F83 /* RepositoryListCell.swift */,
 				146BD036290926C300CDAAA7 /* Assets.xcassets */,
 				146BD038290926C300CDAAA7 /* LaunchScreen.storyboard */,
@@ -215,6 +218,7 @@
 			files = (
 				146BD02E290926C100CDAAA7 /* AppDelegate.swift in Sources */,
 				146BD030290926C100CDAAA7 /* SceneDelegate.swift in Sources */,
+				14474765292C918F00ADDB37 /* Repository.swift in Sources */,
 				14E524D2291A4059005C0F83 /* RepositoryListViewController.swift in Sources */,
 				14E524D4291A416B005C0F83 /* RepositoryListCell.swift in Sources */,
 			);
